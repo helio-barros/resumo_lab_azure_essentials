@@ -1,0 +1,43 @@
+Guia para Criar uma Máquina Virtual no Azure
+
+Este repositório foi desenvolvido para o Desafio #02 do Bootcamp Microsoft Azure Essentials, oferecendo um passo a passo sobre como configurar uma máquina virtual no portal do Microsoft Azure.
+1.	Acesse o Portal do Azure 🌐 
+Comece criando sua conta e fazendo login no Portal do Azure, onde você poderá gerenciar todos os seus recursos em um só lugar.
+
+ 
+
+2. Configuração da Máquina Virtual ➕  
+No painel do Azure, utilize a barra de pesquisa para encontrar "Máquinas Virtuais" ou "Virtual Machines". Em seguida, clique em "Criar" para iniciar a configuração.
+
+ 
+3. Preencha as Informações Básicas 📝  
+Nome da VM: Defina um nome que facilite a identificação da máquina virtual.  
+Região: Escolha a região onde a VM será criada, de preferência próxima aos seus usuários ou à sua localização.  
+Imagem: Selecione o sistema operacional que deseja instalar na VM, como Windows ou Linux.  
+Tamanho: Defina o tamanho da VM considerando suas necessidades de CPU, memória e armazenamento.
+
+ 
+4. Configure as Opções de Rede 🌐
+Rede Virtual: Crie uma nova rede ou selecione uma existente.
+Sub-rede: Escolha a sub-rede onde a VM será conectada.
+Grupo de Segurança de Rede (NSG): Defina as regras de firewall para a sua VM.
+ 
+5. Configure as Credenciais de Acesso 🔑  
+Nome de Usuário e Senha: Defina um nome de usuário e uma senha para acessar a VM. Lembre-se de escolher uma senha forte para maior segurança.
+
+6. Revise e Crie 🔍  
+Revise todas as configurações para garantir que estejam corretas. Em seguida, clique em "Criar" e aguarde alguns minutos enquanto o Azure provisiona sua máquina virtual. 
+
+7. Conecte-se à Sua VM 🌟  
+Após a criação da VM, você pode se conectar a ela. Para VMs com Windows, utilize o Remote Desktop (RDP); para VMs com Linux, conecte-se via SSH.
+
+▶️ Conclusão  
+Este guia oferece uma introdução básica à criação de uma VM no Azure. Explore outros recursos disponíveis para atender às suas necessidades em nuvem.
+
+🗒️ Recursos Adicionais  
+- Documentação Oficial do Microsoft Azure  
+- Tutoriais de Introdução ao Azure  
+
+🔗 Créditos  
+Este projeto foi desenvolvido como parte do Desafio de Projeto do Bootcamp Microsoft Azure Essentials da DIO, para avaliar os conhecimentos transmitidos no curso "Conceitos Iniciais de Cloud com Azure".
+
